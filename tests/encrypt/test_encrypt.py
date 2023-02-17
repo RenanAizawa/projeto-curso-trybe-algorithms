@@ -6,7 +6,7 @@ base_message = "banana"
 invalid_message = 1000
 r3_message = "nab_ana"
 r4_message = "an_anab"
-rN_message ="ananab"
+rN_message = "ananab"
 
 
 def test_encrypt_message():
