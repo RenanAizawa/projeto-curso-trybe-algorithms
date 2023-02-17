@@ -18,8 +18,8 @@ def is_anagram(first_string, second_string):
     """Faça o código aqui."""
     list1 = list(first_string.lower())
     list2 = list(second_string.lower())
-    sorted1 = selectionSort( list1, len(list1))
-    sorted2 = selectionSort( list2, len(list2))
+    sorted1 = selectionSort(list1, len(list1))
+    sorted2 = selectionSort(list2, len(list2))
     merged1 = "".join(sorted1)
     merged2 = "".join(sorted2)
     if not first_string or not second_string:
