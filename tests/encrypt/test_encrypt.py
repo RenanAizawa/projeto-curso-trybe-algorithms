@@ -3,10 +3,11 @@ from challenges.challenge_encrypt_message import encrypt_message
 
 
 base_message = "banana"
-invalid_message= 1000
-r3_message= "nab_ana"
-r4_message= "an_anab"
-rN_message="ananab"
+invalid_message = 1000
+r3_message = "nab_ana"
+r4_message = "an_anab"
+rN_message ="ananab"
+
 
 def test_encrypt_message():
     with pytest.raises(TypeError, match="tipo inválido para key"):
